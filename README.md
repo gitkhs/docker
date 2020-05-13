@@ -18,6 +18,7 @@
 git clone <url>
 
 # 저장소 변경사항 받아오기
+# pull은 원격에서 받아와 로컬과 머지 하며 fetch는 머지 하지 않는다
 git fetch
 
 # 브랜치 목록 조회
@@ -29,4 +30,11 @@ git branch
 # 로컬저장소의 브랜치를 생성 후 선택 한다.
 git checkout <branch>
 
+# 브랜치 병합
+# 해당 브랜치의 내용과 병합한다.
+git merge <branch>
+
+# 원격 저장소에 전송
+# 
+git push <remote> <branch>
 ```
