@@ -1,5 +1,3 @@
 # docker
 
 testpush
-
-feature-test
